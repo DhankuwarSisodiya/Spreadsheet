@@ -1,0 +1,25 @@
+{
+  "name": "assignment-7-sisodiyadhankuwar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist",
+    "watch-css": "nodemon -e scss -x npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-SisodiyaDhankuwar.git"
+  },
+  "author": "Dhankuwar Sisodiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-SisodiyaDhankuwar/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-SisodiyaDhankuwar#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "rxjs": "^6.6.3"
+  }
+}

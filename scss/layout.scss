@@ -1,0 +1,95 @@
+/* nav for sticky bar */
+
+nav {
+    background-color: $bg-color !important;
+    padding: 10px;
+}
+
+.sticky {
+    position: sticky !important;
+    top: 0;
+}
+
+/* title tag element */
+
+.title {
+    font-size: 30px;
+    font-family: calibri;
+    text-align: center;
+}
+
+.formulaBar{
+    font-size: 30px;
+    padding: 10px;
+    input{
+        width: 300px;
+        height: 30px;
+        font-size: 17px;
+    }
+}
+/* styling for buttons */
+
+button {
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    background: $button-bg;
+    border: 1px solid $button-bg;
+    color: $button-color;
+    margin-left: 3px;
+}
+
+
+/* on hover for buttons */
+
+button:hover {
+    cursor: pointer;
+}
+
+.options {
+    padding-bottom: 3px;
+}
+
+body {
+    margin: 1px !important;
+}
+
+
+/* styling for table */
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+    empty-cells: hide !important;
+}
+
+td {
+    min-width: 44.3px;
+    min-height: 400px;
+    text-align: center;
+}
+
+tr {
+    line-height: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid $border-color;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: $cell-highlight;
+}
+
+
+/* file hidden */
+
+.fileUpload {
+    display: none;
+}
