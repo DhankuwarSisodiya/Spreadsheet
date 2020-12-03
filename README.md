@@ -13,7 +13,7 @@ This repository consists of spreadsheet application like google sheets using Jav
 
 # Technical Requirements:
 
-1. This assignment uses JavaScript events & RxJS.
+1. This project uses JavaScript events & RxJS.
 2. Events for the formula are implemented using RxJS and buttons use simple event listeners.
 3. On clearing formula, all subscribers and events are cleared from the page.
 4. No javascript frameworks are used except RxJS.
